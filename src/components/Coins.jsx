@@ -89,7 +89,7 @@ return (
          {
           coins.map((i) => (
             // <div>{i.name}</div>
-<Link to={`/coin/${i.id}`} target={'_blank'} style={{ textDecoration: 'none' }}  key={i.id}>
+<Link to={`/coin/${i.id}`}  style={{ textDecoration: 'none' }}  key={i.id}>
               <div className='card maincard' key={i.id}>
 <img src={i.image} className="card-img-top" alt="..." />
 <div className="card-body">
