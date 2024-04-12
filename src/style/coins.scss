@@ -1,0 +1,20 @@
+.mainpagenation{
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 2rem;
+    gap: 10px;
+    // position: absolute;
+    // top: 100%;
+}
+
+.pagenation{
+    background: black !important;
+    color: white !important;
+}
+
+.mainradio{
+    margin-top: -25px;
+    justify-content: start;
+    display: flex;
+    width: 100%;
+}

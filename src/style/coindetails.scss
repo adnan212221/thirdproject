@@ -1,0 +1,42 @@
+.time{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow1{
+    color: green;
+    transform: rotateX(180deg);
+}
+
+.arrow2{
+    color: red;
+}
+
+.high-low{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.high{
+    background-color: green;
+    color: white;
+}
+
+.low{
+    background-color: red;
+    color: white;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 3rem;
+}
+
+.maxsupply{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 20px;
+}
+
+.maincard{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 18rem;
+}
