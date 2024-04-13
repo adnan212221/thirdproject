@@ -1,0 +1,26 @@
+
+.mainpage{
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+}
+
+.mainpage img {
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.mainpage h1{
+    color: darkgoldenrod;
+    padding: 2px 20px;
+    background: black;
+    border-radius: 7px;
+    border: 1px solid;
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+
+    @media (max-width: 575.98px) { 
+        left: 36%;
+     }
+}
