@@ -102,12 +102,7 @@ return (
           ))
          }
 
-</>
-
-      
-  
-  )}
-  
+          
   {/* <button className='btn' onClick={()=> changepage(2)}>2</button> */}
   <div className='container mainpagenation'>
     {
@@ -116,6 +111,13 @@ return (
    ))
     } 
   </div>
+
+</>
+
+      
+  
+  )}
+ 
 
   </div>
   )
