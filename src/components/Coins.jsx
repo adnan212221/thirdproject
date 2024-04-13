@@ -74,8 +74,8 @@ return (
       
 <div className='mainradio'>
 <div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="₹ inr" onChange={onChange}/>
-  <label className="form-check-label" htmlFor="inlineRadio1">inr</label>
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="inr" onChange={onChange}/>
+  <label className="form-check-label" htmlFor="inlineRadio1">₹ inr</label>
 </div>
 <div className="form-check form-check-inline">
   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="usd" onChange={onChange}/>
